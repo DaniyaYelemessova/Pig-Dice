@@ -1,0 +1,61 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 700px;
+  height: 400px;
+  margin: 0 auto;
+
+}
+
+.players{
+  display: flex;
+  justify-content: space-around;
+}
+
+.btns{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  gap: 20px;
+}
+
+.btn{
+  background-color: blueviolet;
+  color: white;
+  padding: 10px 30px;
+  border: none;
+  font-size: 20px;
+}
+
+button:disabled{
+  color: #999;
+  background-color: #eee;
+}
+
+.hidden{
+  display: none;
+  color: red;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+
+}
+
+.hidden2{
+  display: none;
+  color: red;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.refresh{
+  background-color: black;
+  color: #eee;
+  padding: 5px 20px;
+}
+
+.stratAgain{
+  margin: 50px auto;
+}
